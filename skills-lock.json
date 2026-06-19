@@ -138,6 +138,12 @@
       "sourceType": "github",
       "skillPath": "skills/ads-youtube/SKILL.md",
       "computedHash": "25652b37f6830a2ca82bbe414ec8a423e4feb225287117eabcb59400037893e1"
+    },
+    "remotion": {
+      "source": "remotion-dev/skills",
+      "sourceType": "github",
+      "skillPath": "skills/remotion/SKILL.md",
+      "computedHash": "829d9e0b1c5a73699f527ba1d3e4e10edb5bf66052a83d488617d9ebf255a332"
     }
   }
 }
