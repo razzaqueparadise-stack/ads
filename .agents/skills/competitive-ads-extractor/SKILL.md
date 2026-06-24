@@ -7,6 +7,34 @@ description: Extracts and analyzes competitors' ads from ad libraries (Facebook,
 
 This skill extracts your competitors' ads from ad libraries and analyzes what's working—the problems they're highlighting, use cases they're targeting, and copy/creative that's resonating.
 
+## Required Output Format (always produce this)
+
+Take 3–5 competitor names or URLs. Pull their **active** ads (use the
+`search_meta_ads` / Ad Library tools, and Google Ads Transparency where relevant),
+then output EXACTLY these four sections:
+
+```
+# Competitive Ads Extractor — <competitor set> (<date>)
+
+## 1. Top hooks ranked by frequency
+| Rank | Hook / angle | # ads using it | Example copy | Who uses it |
+|------|--------------|----------------|--------------|-------------|
+| 1 | ... | 7 | "..." | A, B, C |
+
+## 2. Offer structure patterns
+- <offer type> — how it's framed, who runs it, why it works
+
+## 3. CTA analysis
+- <CTA> — frequency, friction level, where it leads (WhatsApp/DM/form/site)
+
+## 4. Gap analysis — angles nobody is running
+- <emotional angle / positioning> — unused by the set, ownable by you, why it would land
+```
+
+Rank hooks by how many distinct ads use them. The **gap analysis is the payload** —
+name emotional angles and positioning that the whole competitive set is ignoring,
+which the user could own. Keep it specific to their market.
+
 ## When to Use This Skill
 
 - Researching competitor ad strategies
